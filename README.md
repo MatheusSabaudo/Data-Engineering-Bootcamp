@@ -2,7 +2,7 @@
 
 ---
 
-## 💻 Tech Stack
+## �� Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
@@ -14,7 +14,7 @@
 
 ---
 
-This repository contains **projects, exercises, and notebooks** completed during the **Data Engineering Bootcamp** by **Zero to Mastery**.  
+This repository contains **projects, exercises, and notebooks** completed during the **Data Engineering Bootcamp** by **Zero to Mastery**.
 It demonstrates hands-on experience in building ETL pipelines, managing databases, and handling real-world data workflows.
 
 ---
@@ -33,7 +33,7 @@ It demonstrates hands-on experience in building ETL pipelines, managing database
 
 ## 📂 Repository Structure
 
-```text
+```
 Data-Engineering-Bootcamp/
 ├─ projects/         # Complete course projects
 ├─ exercises/        # Practice exercises
@@ -41,3 +41,39 @@ Data-Engineering-Bootcamp/
 ├─ scripts/          # Python scripts for ETL and automation
 └─ README.md
 ```
+
+---
+
+## ⚡ How to Use
+
+Clone the repository and explore the projects:
+
+```
+git clone git@github.com:MatheusSabaudo/Data-Engineering-Bootcamp.git
+cd Data-Engineering-Bootcamp
+python3 -m venv venv        # Optional: create virtual environment
+source venv/bin/activate    # Activate virtual environment
+pip install -r requirements.txt
+```
+
+Then you can run scripts, open notebooks, or explore exercises.
+
+---
+
+## 📊 Skills Demonstrated
+
+- Python (Pandas, NumPy)  
+- SQL & Database Design  
+- ETL Pipeline Development  
+- Workflow Automation (Airflow / Scripts)  
+- API Integration & Data Cleaning  
+- Data Visualization (Charts & Dashboards)  
+- Version Control (Git & GitHub)  
+
+---
+
+## 📣 Connect
+
+[GitHub](https://github.com/MatheusSabaudo) | matteosabaudo@outlook.it
+
+> A portfolio showcasing hands-on data engineering projects and practical workflows.
