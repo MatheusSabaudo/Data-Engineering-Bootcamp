@@ -1,2 +1,5 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
 # Windows Zone.Identifier files
 *:Zone.Identifier
