@@ -74,6 +74,6 @@ Then you can run scripts, open notebooks, or explore exercises.
 
 ## 📣 Connect
 
-[GitHub](https://github.com/MatheusSabaudo) | matteosabaudo@outlook.it
+[GitHub](https://github.com/MatheusSabaudo) | [LinkedIn](https://www.linkedin.com/in/matheus-sabaudo-rodrigues-23b74130a/) | matteosabaudo@outlook.it
 
 > A portfolio showcasing hands-on data engineering projects and practical workflows.
