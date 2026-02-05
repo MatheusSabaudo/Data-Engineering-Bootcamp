@@ -14,7 +14,7 @@
 
 ---
 
-This repository contains **projects, exercises, and notebooks** completed during the **Data Engineering Bootcamp** by **Zero to Mastery**.
+This repository contains **projects, exercises, and notebooks** completed during the **Data Engineering Bootcamp**.
 It demonstrates hands-on experience in building ETL pipelines, managing databases, and handling real-world data workflows.
 
 ---
