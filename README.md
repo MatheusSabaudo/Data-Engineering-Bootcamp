@@ -36,6 +36,7 @@ It demonstrates hands-on experience in building ETL pipelines, managing database
 ```
 Data-Engineering-Bootcamp/
 ├─ projects/         # Complete course projects
+├─ IBM-Course/       # All files from the IBM Data Engineer course
 ├─ exercises/        # Practice exercises
 ├─ notebooks/        # Jupyter notebooks for experimentation
 ├─ scripts/          # Python scripts for ETL and automation
