@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    environment:
+      KAKFA_KRAFT_MODE: "true" # Enable KRaft mode for Kafka
+      CLUSTER_ID: "kafka-cluster" # Set a unique cluster ID for the Kafka cluster
+      KAFKA_NODE_ID: 1 # Set a unique node ID for the Kafka broker
+      KAFKA_PROCESS_ROLES: broker, controller # Set the process roles to broker and controller for KRaft mode
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093 # Set the controller quorum voters to the Kafka broker
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1 # Set replication factor to 1 for KRaft mode - data only stored on one broker
+      
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092, CONTROLLER://0.0.0.0:9093 # Listen on all interfaces for both broker and controller
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092 # Advertise the broker's address for clients to connect
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER # Specify the listener name for the controller
+      
+      KAFKA_LOG_DIRS: /tmp/kafka-combined-logs # Set the log directory for Kafka data storage
+    
+    volumes:
+      - kafka_kafka:/var/lib/kafka/data # Mount the Kafka data directory to a Docker volume for persistence
+
+volumes:
+  kafka_kafka:
